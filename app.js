@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const port = process.env.PORT || 3000;
 const io = new Server(server, {
     cors: {
-        origin:"https://whiteboard-blush.vercel.app",
+        origin:"https://whiteboard-dl488ian4-amocreates-projects.vercel.app",
         methods: ["GET", "POST"],
     }
 });
